@@ -1,55 +1,55 @@
----
-title: ''
-summary: ''
-date: 2026-04-28
-type: landing
+  ---
+  title: ''
+  summary: ''
+  date: 2026-04-28
+  type: landing
 
-sections:
-  - block: resume-biography-3
-    content:
-      username: me
-      text: ''
-      button:
-        text: Download Resume
-        url: uploads/resume.pdf
-      headings:
-        about: ''
-        education: ''
-        interests: ''
-    design:
-      background:
-        gradient_mesh:
-          enable: true
-      name:
-        size: lg
-      avatar:
-        size: medium
-        shape: circle
+  sections:
+    - block: resume-biography-3
+      content:
+        username: me
+        text: ''
+        button:
+          text: Download Resume
+          url: uploads/resume.pdf
+        headings:
+          about: ''
+          education: ''
+          interests: ''
+      design:
+        background:
+          gradient_mesh:
+            enable: true
+        name:
+          size: lg
+        avatar:
+          size: medium
+          shape: circle
 
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publication
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+    - block: collection
+      id: papers
+      content:
+        title: Featured Publication
+        filters:
+          folders:
+            - publications
+          featured_only: true
+      design:
+        view: article-grid
+        columns: 2
 
-  - block: collection
-    id: featured-projects
-    content:
-      title: Featured Projects
-      text: ''
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 2
-      fill_image: false
+    - block: collection
+      id: featured-projects
+      content:
+        title: Featured Projects
+        text: ''
+        filters:
+          folders:
+            - projects
+      design:
+        view: article-grid
+        columns: 2
+        fill_image: false
 
     - block: markdown
       id: contact
@@ -64,5 +64,5 @@ sections:
           - 💻 **GitHub:** [github.com/CH-2902](https://github.com/CH-2902)
           - 📄 **Resume:** [Download PDF](uploads/resume.pdf)
       design:
-        columns: '1
----
+        columns: '1'
+  ---
