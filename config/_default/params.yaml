@@ -13,18 +13,18 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Lim Chien Her"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "AI/ML Engineer · LLM Agents · RAG · Reinforcement Learning"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+    description: "Personal portfolio of Lim Chien Her — AI/ML Engineer based in Singapore, working on LLM agents, retrieval-augmented generation, and reinforcement learning."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "MakeOwnable"              # Twitter/X handle for Twitter Cards (without @)
+      twitter: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -37,9 +37,9 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: ""                       # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: ""                       # Affects gray utilities (text-gray-*, bg-gray-*)
+      primary: "blue"
+      secondary: "slate"
+      neutral: "slate"
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
@@ -114,12 +114,12 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
+    notice: "© {year} {name}"
     license:
-      type: cc                          # cc | custom
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      type: custom
+      allow_derivatives: true
+      share_alike: false
+      allow_commercial: true
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
